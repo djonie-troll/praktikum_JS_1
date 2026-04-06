@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+<body>
+    <h1>My Frist Page</h1>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "<h2>Hello World</h2>";
+        document.getElementById("demo").innerText = "Hello World";
+        document.write(5 + 6);
+        alert("Hello saya alert")
+        console.log("Hello Console");
+        let nama = prompt("Nama saya : ");
+        alert("Haloo... "+nama);
+        let bill = prompt("Input Bilangan: ");
+        if (bill % 2 == 0){
+            alert("Bilangan genap")
+        }else {alert("Bilangan Ganjil")
+        }
+    </script>
+    <br><br>
+   <button type="button" onclick="document.write(5 + 6)">Try it</button>
+</body>
+</head>
+</html>
